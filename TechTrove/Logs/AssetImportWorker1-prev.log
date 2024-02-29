@@ -1,0 +1,1150 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityProgramm\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/coursework/course-project/TechTrove
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60169
+Successfully changed project path to: F:/coursework/course-project/TechTrove
+F:/coursework/course-project/TechTrove
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13336] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 4251942543 [EditorId] 4251942543 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13336] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 4251942543 [EditorId] 4251942543 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1758.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path D:/UnityProgramm/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/coursework/course-project/TechTrove/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'D:/UnityProgramm/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityProgramm/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityProgramm/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityProgramm/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityProgramm/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityProgramm/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/UnityProgramm/2022.3.12f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.531543 seconds.
+- Loaded All Assemblies, in  7.907 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 450 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.992 seconds
+Domain Reload Profiling: 8899ms
+	BeginReloadAssembly (5355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (557ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (595ms)
+	LoadAllAssembliesAndSetupDomain (1380ms)
+		LoadAssemblies (5355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1376ms)
+			TypeCache.Refresh (1374ms)
+				TypeCache.ScanAssembly (1077ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (912ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (707ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.306 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 9223ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (8006ms)
+		LoadAssemblies (7328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (790ms)
+			TypeCache.Refresh (756ms)
+				TypeCache.ScanAssembly (682ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (918ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (245.5 KB). Loaded Objects now: 4483.
+Memory consumption went from 148.4 MB to 148.2 MB.
+Total: 4.454400 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.145900 ms MarkObjects: 3.580600 ms  DeleteObjects: 0.301000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 879.770450 seconds.
+  path: Assets/Resources/Assets
+  artifactKey: Guid(4d5307f60922ad34dafb55e1ea53ee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets using Guid(4d5307f60922ad34dafb55e1ea53ee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c715e594f92588e45474209a9474a438') in 0.003282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.672186 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/Sample.png
+  artifactKey: Guid(bb490769ceb0f9745ac52fae93406c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/Sample.png using Guid(bb490769ceb0f9745ac52fae93406c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a79eed27dc384eb19a40c3ea8eec570') in 0.112791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.382913 seconds.
+  path: Assets/Resources/Assets/Interface Pack/Sample.png
+  artifactKey: Guid(0d41e5fb8e8a61b4a8b240a48a4dfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/Sample.png using Guid(0d41e5fb8e8a61b4a8b240a48a4dfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc5538d257e52d1b0d6a9377f2b2696') in 0.031438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.837005 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896ca77e6b6043ff954e58dbd0df98fa') in 0.125071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.293676 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/Fonts/kenvector_future_thin.ttf
+  artifactKey: Guid(5126768714b5bc84385ddbf5846bd536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/Fonts/kenvector_future_thin.ttf using Guid(5126768714b5bc84385ddbf5846bd536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c23936ce809b2dd85624747ff01f9') in 0.015101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.012924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2839.790169 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_blue_mid.png
+  artifactKey: Guid(ebef3d63ea715d0429a9bc68c473c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_blue_mid.png using Guid(ebef3d63ea715d0429a9bc68c473c2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24601718d0c5d2437db367e59a41847a') in 0.021801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024038 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_green_mid.png
+  artifactKey: Guid(8257fb98dc549914d80230de465a25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_green_mid.png using Guid(8257fb98dc549914d80230de465a25df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea71707bfccac62f263a3dccdb96d0') in 0.017188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_red_left.png
+  artifactKey: Guid(1d7d82c04587b464db5ad7136a2a3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_red_left.png using Guid(1d7d82c04587b464db5ad7136a2a3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0636025110a0b19ab2d61fe53d0433a') in 0.017877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_red_right.png
+  artifactKey: Guid(919b7fe8479ea2e40af69a21d1c375a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_red_right.png using Guid(919b7fe8479ea2e40af69a21d1c375a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae413e088414501eeade43dc2ef87b44') in 0.023015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013350 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_shadow_mid.png
+  artifactKey: Guid(602969ce23fd4d14cbcd7199cd08bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_shadow_mid.png using Guid(602969ce23fd4d14cbcd7199cd08bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3e4b972e3966089c7d0bb2f29c76d3') in 0.017712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_shadow_right.png
+  artifactKey: Guid(25dbbbc3d2782bd4d9590cefbc39bb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_shadow_right.png using Guid(25dbbbc3d2782bd4d9590cefbc39bb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f10d756198d33aecc1b392e360c3641') in 0.016815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_white_mid.png
+  artifactKey: Guid(f3580bc302bdd984fb37536335c00cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_white_mid.png using Guid(f3580bc302bdd984fb37536335c00cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a59783b203d0c4a6aca4bd18eaaa724') in 0.016282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_yellow_mid.png
+  artifactKey: Guid(32f83e7de31c6cd4c842557d405dac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barHorizontal_yellow_mid.png using Guid(32f83e7de31c6cd4c842557d405dac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cda6286bcfefd2dff4d6eb17269ed3') in 0.018817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_blue_bottom.png
+  artifactKey: Guid(2c74478da506a2f4294a2d383e57c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_blue_bottom.png using Guid(2c74478da506a2f4294a2d383e57c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43599517fb9adb7876e1ca3af95e6f97') in 0.017687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043234 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_green_bottom.png
+  artifactKey: Guid(99e35dc53c93cd747a59a0a427f95af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_green_bottom.png using Guid(99e35dc53c93cd747a59a0a427f95af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b851f705b68a5fc17df805dd3df2e74') in 0.016829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017353 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_green_top.png
+  artifactKey: Guid(2573cc7ca8a5d4e4d8adf4787593325a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_green_top.png using Guid(2573cc7ca8a5d4e4d8adf4787593325a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa8211ee796000baee64a3ae0c2618a') in 0.020895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019258 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_red_mid.png
+  artifactKey: Guid(4dcc5ab3ad117884ba9302249f271f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_red_mid.png using Guid(4dcc5ab3ad117884ba9302249f271f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911c14bedb63571e2a98ca029ab2799') in 0.018170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009787 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_shadow_bottom.png
+  artifactKey: Guid(be7b0ef5ae3542f4f9448c727adbd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_shadow_bottom.png using Guid(be7b0ef5ae3542f4f9448c727adbd328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b023a0898a427e1c68c06270c0ee73c5') in 0.016102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_shadow_mid.png
+  artifactKey: Guid(924942339db4bf24483232198d14c456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_shadow_mid.png using Guid(924942339db4bf24483232198d14c456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b8bdc36e34e6de1d212c8740d638e') in 0.016921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019129 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_white_bottom.png
+  artifactKey: Guid(bcc1ce2321d49b84386ee0a33f4f7e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_white_bottom.png using Guid(bcc1ce2321d49b84386ee0a33f4f7e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b217f1d9986bc159c03fe312bfca0790') in 0.018649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015761 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_white_top.png
+  artifactKey: Guid(f130998344776a643b211b8eeb3b41cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_white_top.png using Guid(f130998344776a643b211b8eeb3b41cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde9b051246c1ca50ee06c8c00a17450') in 0.017622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029337 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/barVertical_yellow_top.png
+  artifactKey: Guid(f54692ef12d766f4e88edc6d3b5f66a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/barVertical_yellow_top.png using Guid(f54692ef12d766f4e88edc6d3b5f66a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeae0942ac26ff4c8d5fd9eac2f4d083') in 0.023495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006837 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/crossair_blackOutline.png
+  artifactKey: Guid(915d9e6ce4d0ff847ab11c8774eb9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/crossair_blackOutline.png using Guid(915d9e6ce4d0ff847ab11c8774eb9f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244f045bcf6e797c3251998963a43b75') in 0.018691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019875 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/crossair_blueOutline.png
+  artifactKey: Guid(ee282867757831549b5bb17687b7e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/crossair_blueOutline.png using Guid(ee282867757831549b5bb17687b7e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d150d440107e1fcca96e81b0a5c4af') in 0.017803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/crossair_redOutline.png
+  artifactKey: Guid(d91dc1b27992afa4c8a782b58c133f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/crossair_redOutline.png using Guid(d91dc1b27992afa4c8a782b58c133f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bfc1000adf888353c1a124cd92dcc9') in 0.018149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020340 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/crossair_whiteOutline.png
+  artifactKey: Guid(26c32620f9e415c449a9e3c5600a9d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/crossair_whiteOutline.png using Guid(26c32620f9e415c449a9e3c5600a9d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d86504a18efbc0125d0549425ca42b') in 0.016316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023966 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/cursor_pointer3D.png
+  artifactKey: Guid(8be6dd491b5b0814e808fdd08cee7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/cursor_pointer3D.png using Guid(8be6dd491b5b0814e808fdd08cee7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32499580564165ae80e83a73e54650fe') in 0.018266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013581 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/cursor_pointerFlat.png
+  artifactKey: Guid(f4933c5a85365e54ca53166327ac1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/cursor_pointerFlat.png using Guid(f4933c5a85365e54ca53166327ac1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ae4b3a87f6714759f7095d14abafa') in 0.023030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021549 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/dot_shadow.png
+  artifactKey: Guid(98d733571a38f0d43bec807a01a22622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/dot_shadow.png using Guid(98d733571a38f0d43bec807a01a22622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9091cd4d493caa6fd70fc1bbaafdb50a') in 0.024924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007434 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/dotGreen.png
+  artifactKey: Guid(a666f3df3d549fd4e8e14af44110366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/dotGreen.png using Guid(a666f3df3d549fd4e8e14af44110366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04827c2af321a598a5add3b4bdd92ab6') in 0.016368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014795 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/dotWhite.png
+  artifactKey: Guid(66e19496a00aa2c4888df5f9929d0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/dotWhite.png using Guid(66e19496a00aa2c4888df5f9929d0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e18699026a604971c2a5a4d23c60f8') in 0.016630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014539 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/glassPanel.png
+  artifactKey: Guid(caabd6d96fd87894caf1d3bf6c4d0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/glassPanel.png using Guid(caabd6d96fd87894caf1d3bf6c4d0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f843df1921c85fca8ef4396c39af0') in 0.018551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013991 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/glassPanel_cornerBR.png
+  artifactKey: Guid(27bf56c6ce5ee324e9d823c4af53e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/glassPanel_cornerBR.png using Guid(27bf56c6ce5ee324e9d823c4af53e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ce93e73f7d09717bc302efeaa362e') in 0.024554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.394212 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/glassPanel_tab.png
+  artifactKey: Guid(07123022971a3a747831266bb7285c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/glassPanel_tab.png using Guid(07123022971a3a747831266bb7285c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9520ce54e050f5430b3f449c41b193c8') in 0.022244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028149 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_blueCorner.png
+  artifactKey: Guid(b72e65fea6e380449bda4dca5c75fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_blueCorner.png using Guid(b72e65fea6e380449bda4dca5c75fc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ee4ad760f645b0565f661685d1ce9') in 0.016931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015438 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_greenCorner.png
+  artifactKey: Guid(f1ae509375af4f24c8ea82e04c2a87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_greenCorner.png using Guid(f1ae509375af4f24c8ea82e04c2a87fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fad0310d92203b142a73c75054ab68') in 0.016758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029221 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_red.png
+  artifactKey: Guid(127a709ff654d234bbaf4c48e302b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_red.png using Guid(127a709ff654d234bbaf4c48e302b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2477152da0a5fa1fe841723f024680aa') in 0.019169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_yellow.png
+  artifactKey: Guid(1ab558b37f1c89b41ba74f227e918b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/metalPanel_yellow.png using Guid(1ab558b37f1c89b41ba74f227e918b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7391e6dffe781adaca0f594d9f1145ea') in 0.018423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008388 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/square_shadow.png
+  artifactKey: Guid(ea3b68ef9a4b2414f9ed3c99cdd5dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/square_shadow.png using Guid(ea3b68ef9a4b2414f9ed3c99cdd5dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d2ce88025457e3a454007f6486c503') in 0.021343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/squareGreen.png
+  artifactKey: Guid(ae5b02aa294697f45982947aa87e8c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/squareGreen.png using Guid(ae5b02aa294697f45982947aa87e8c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e288cd50659cbf389e57ebb12586f65c') in 0.019312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.122269 seconds.
+  path: Assets/Resources/Assets/UI Space Pack/PNG/squareYellow.png
+  artifactKey: Guid(d4556c8359a78e44eb4bfd9678e7309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI Space Pack/PNG/squareYellow.png using Guid(d4556c8359a78e44eb4bfd9678e7309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5eabf280080f80c1080c841babf69f') in 0.024310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 37.632470 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/bannerModern.png
+  artifactKey: Guid(beac9c9a4bd1d0f439755c69aec7adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/bannerModern.png using Guid(beac9c9a4bd1d0f439755c69aec7adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a531665a19a45740338812704fee32') in 0.020169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009275 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_metalBlank.png
+  artifactKey: Guid(4b2c871e58ce60844b91307ac5592ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_metalBlank.png using Guid(4b2c871e58ce60844b91307ac5592ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9e2982cfe67a3355cc1a83b9cdb92') in 0.015951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019586 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_metalClose.png
+  artifactKey: Guid(1bee65dcbe7da4449b636e8f6a6a34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_metalClose.png using Guid(1bee65dcbe7da4449b636e8f6a6a34fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fcbc3abec27c3655f12f85d526fd8e') in 0.016109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029076 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleMetalClose.png
+  artifactKey: Guid(e29987bed600bca4d834d44827ac3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleMetalClose.png using Guid(e29987bed600bca4d834d44827ac3fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792e7e607e20581c8d22bcdd10727e87') in 0.018691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013853 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleRedClose.png
+  artifactKey: Guid(4e7c4ed9934197844adef6704bac5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleRedClose.png using Guid(4e7c4ed9934197844adef6704bac5a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b87a99ad9bf6a3f4734857cb88773b') in 0.032681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008374 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleWoodClose.png
+  artifactKey: Guid(69a1d89f912ccb14e8b08896cfbefb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_rectangleWoodClose.png using Guid(69a1d89f912ccb14e8b08896cfbefb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e93727b899ef660d32c8c071b26c48') in 0.015922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.029270 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_woodClose.png
+  artifactKey: Guid(0b31f6e3caa3b6c40b2d2b3047256c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_woodClose.png using Guid(0b31f6e3caa3b6c40b2d2b3047256c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21144977c6b5382136aadb949e319033') in 0.018075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030223 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/button_woodPaperCircle.png
+  artifactKey: Guid(ef4bdd5ee75ac6141871a9fe121a744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/button_woodPaperCircle.png using Guid(ef4bdd5ee75ac6141871a9fe121a744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08180818043b5b1bd3fb93bfca48f2e7') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017106 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_metal.png
+  artifactKey: Guid(36eb9aaae4b0f2b4a885ed6e70ab3020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_metal.png using Guid(36eb9aaae4b0f2b4a885ed6e70ab3020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911d68898e32b66046a6d64b278ce02') in 0.018115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048405 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_metalGreen.png
+  artifactKey: Guid(68968e13742229141a7e0fcacf19a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_metalGreen.png using Guid(68968e13742229141a7e0fcacf19a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd671ac24de4c6bf55675920ff42f3208') in 0.016567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.050897 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_woodPaperWear.png
+  artifactKey: Guid(d47f60e1c9d46504a9614ce1633b0955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/hexagon_woodPaperWear.png using Guid(d47f60e1c9d46504a9614ce1633b0955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a323150651b9802753877453b8ae980') in 0.020381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022439 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapDirection_E.png
+  artifactKey: Guid(527a2c363358f0143ba6a61eaa5f1b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapDirection_E.png using Guid(527a2c363358f0143ba6a61eaa5f1b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b105e6de5d4a314365866f8049498b16') in 0.023238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048294 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_arrowA.png
+  artifactKey: Guid(1113dc8700b45404393c06c20f8bc23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_arrowA.png using Guid(1113dc8700b45404393c06c20f8bc23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6255804a8ddec3c28f5f85488c2a55') in 0.017652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.055115 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_arrowD.png
+  artifactKey: Guid(22e7532126fafb04d9c503e6592a56a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_arrowD.png using Guid(22e7532126fafb04d9c503e6592a56a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e999839ca911b27a96862a14301fe5') in 0.016792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006232 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_exclamationWhite.png
+  artifactKey: Guid(1a8f040b419df0e40afa84b3d5f57312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_exclamationWhite.png using Guid(1a8f040b419df0e40afa84b3d5f57312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5dcf5a65fb5045364ade9a8b3ced06') in 0.018687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045466 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_jewelWhite.png
+  artifactKey: Guid(50703004ae4abb6419ba84697bbe03bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_jewelWhite.png using Guid(50703004ae4abb6419ba84697bbe03bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0678494e818f1fdcfedcca83f5a89025') in 0.017920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014582 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_starRed.png
+  artifactKey: Guid(38669baeea427ad4b860786d42c60e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapIcon_starRed.png using Guid(38669baeea427ad4b860786d42c60e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6557f7eb9f811b3f5c4786c06eb251') in 0.017337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.088414 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapMap_stone.png
+  artifactKey: Guid(edfe8ca2c3d43a341a12f94d498cbea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapMap_stone.png using Guid(edfe8ca2c3d43a341a12f94d498cbea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68ada1a9d55bc4661ce994d0c8d178b') in 0.020439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034840 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapMap_woodRing.png
+  artifactKey: Guid(a002186b176fba74ebc68d51369e965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/minimapMap_woodRing.png using Guid(a002186b176fba74ebc68d51369e965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7680fecbbe0009eb0ee75c7d3a904a07') in 0.020260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.051436 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsDetail.png
+  artifactKey: Guid(c4799bda3a662954186fa6fb591c7b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsDetail.png using Guid(c4799bda3a662954186fa6fb591c7b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f518a6281598370a09d83efb70ff4960') in 0.018251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021183 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsDetailSquare_blank.png
+  artifactKey: Guid(39e1efc3562d134479da721de9663644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsDetailSquare_blank.png using Guid(39e1efc3562d134479da721de9663644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d694b31d21483d523d5a03b6048b2b') in 0.015985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013471 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsRed.png
+  artifactKey: Guid(38ca60ab9dc1a2d418ed5a58b681cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_boltsRed.png using Guid(38ca60ab9dc1a2d418ed5a58b681cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c472ad4bb1e42a25913fbac63decaa4') in 0.017316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038334 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalBlank.png
+  artifactKey: Guid(1a3aa52e29bc127409fae3f4a5ff3775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalBlank.png using Guid(1a3aa52e29bc127409fae3f4a5ff3775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06953c1f57525c9a924d9c6e80dcef11') in 0.018511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.065686 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalBolts.png
+  artifactKey: Guid(8917fb5dc40e8794688421e176ff3e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalBolts.png using Guid(8917fb5dc40e8794688421e176ff3e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29333545a809ff32ba960361523ccda7') in 0.020212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.532367 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalGreen.png
+  artifactKey: Guid(f19a510b482fb3e4896e825b2c813ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_metalGreen.png using Guid(f19a510b482fb3e4896e825b2c813ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efc6d8c0f40ab97fc9fb3a8eb7efcd4') in 0.015672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026277 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_wood.png
+  artifactKey: Guid(59f582d72e3a6ed499883c1ea52b6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_wood.png using Guid(59f582d72e3a6ed499883c1ea52b6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f78b82eff5d068ebd8bf7273d75f472') in 0.016753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020688 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodDetail.png
+  artifactKey: Guid(8817b970e4a621344b165a13ef8f0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodDetail.png using Guid(8817b970e4a621344b165a13ef8f0e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08f455328c465b9a941c22f7c83a5aa') in 0.016476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.036460 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodDetailArrows.png
+  artifactKey: Guid(08dbbb97c2ed7284882d6f1155093e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodDetailArrows.png using Guid(08dbbb97c2ed7284882d6f1155093e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df142b876ee7643a864d83dce73ec141') in 0.015711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041294 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodPaperArrows.png
+  artifactKey: Guid(3e1cd4e40873a454b8ac7e0dfa697d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodPaperArrows.png using Guid(3e1cd4e40873a454b8ac7e0dfa697d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a203569d22fcb5bada5130afb52899a3') in 0.019439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodPaperDetailArrows.png
+  artifactKey: Guid(3ec2a60b32b26214e83d7ad56ab4c1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodPaperDetailArrows.png using Guid(3ec2a60b32b26214e83d7ad56ab4c1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7418650ceb13c90cdf1cc10baef5db7f') in 0.016118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.073562 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodWear_blank.png
+  artifactKey: Guid(5e7dd3efe6f0cb04490605e69f4b1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/panel_woodWear_blank.png using Guid(5e7dd3efe6f0cb04490605e69f4b1681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1335429f33f8e06eed8b35d4a8917448') in 0.015963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.089121 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesMetal_small.png
+  artifactKey: Guid(6756fca55ba13874d90013b43ef76253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesMetal_small.png using Guid(6756fca55ba13874d90013b43ef76253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977699420afdceddc09c67a89407b8d4') in 0.016830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008113 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesRed_small.png
+  artifactKey: Guid(d68cb62300d64ab4988efa1be7e94ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesRed_small.png using Guid(d68cb62300d64ab4988efa1be7e94ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd224ea53a191b83ebf29b3d8e08e200b') in 0.020742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014314 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesShadow_small.png
+  artifactKey: Guid(66c4a30ecf9ca174b9317a73ab78c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/patternStripesShadow_small.png using Guid(66c4a30ecf9ca174b9317a73ab78c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a4b540e5e47dbba4bf3b4966aa32a') in 0.016736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028280 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_blueBorder.png
+  artifactKey: Guid(0236db8c30687c54b8caa775e970d35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_blueBorder.png using Guid(0236db8c30687c54b8caa775e970d35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787479d268b81dd3afe05af77db8e291') in 0.017756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.061576 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_green.png
+  artifactKey: Guid(8139f164bb3fb004c90aa5b6fd7950f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_green.png using Guid(8139f164bb3fb004c90aa5b6fd7950f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463847629a77048af956cb969c0c418') in 0.020763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012622 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_greenBorderSmall.png
+  artifactKey: Guid(5bda34878287a36458c35809294ff8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_greenBorderSmall.png using Guid(5bda34878287a36458c35809294ff8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb6e058fb4b6cb8a05fc3d73ba74209') in 0.020590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037740 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_redBorder.png
+  artifactKey: Guid(42ddfd391b20fec4ead4bd4ab8fbd081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_redBorder.png using Guid(42ddfd391b20fec4ead4bd4ab8fbd081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4c65345c18ca908ae8fbbaf241f9b7') in 0.016252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023889 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_redSmall.png
+  artifactKey: Guid(3a8dc4bcb08707b4a8f0b9396323fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/progress_redSmall.png using Guid(3a8dc4bcb08707b4a8f0b9396323fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2beaff5446ba2fe82f105726a3bdfad') in 0.019818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016311 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/round_metal.png
+  artifactKey: Guid(8171f404733543242aed4be552cc6479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/round_metal.png using Guid(8171f404733543242aed4be552cc6479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64919074e6de07cb614220edf5f28c36') in 0.018473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017715 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/round_metalGreen.png
+  artifactKey: Guid(f4d1d82f0f147554e8f03500c9e1bb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/round_metalGreen.png using Guid(f4d1d82f0f147554e8f03500c9e1bb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c031ff6b89e57f7f28ca670d711f7c') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013914 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/round_wood.png
+  artifactKey: Guid(cffbcb568f2851640897be79a7bc2590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/round_wood.png using Guid(cffbcb568f2851640897be79a7bc2590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f202a42b358c12c3c9bc6bd3540c654') in 0.018195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.590197 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_barPoint.png
+  artifactKey: Guid(bec4b35ab0c58b249a10601d8fa42555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_barPoint.png using Guid(bec4b35ab0c58b249a10601d8fa42555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe0724565a2f0c004b662bc34c6973f') in 0.017876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014989 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_barRound.png
+  artifactKey: Guid(061823114e3b80e4a9fcbae50064aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_barRound.png using Guid(061823114e3b80e4a9fcbae50064aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c401e0fdec62e89fcc3de26f094feef') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017860 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_metal.png
+  artifactKey: Guid(b57ce5ae5671598409efe489f5ccf75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_metal.png using Guid(b57ce5ae5671598409efe489f5ccf75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73113fc9a4a4fdb4364bafd9ee53ebe7') in 0.016859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016057 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_metalRedSmall.png
+  artifactKey: Guid(e10c25b26e249e64c94f218aaf78c478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_metalRedSmall.png using Guid(e10c25b26e249e64c94f218aaf78c478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4b9738951120bcdd48b768ece89b5a') in 0.019616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015862 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_stone.png
+  artifactKey: Guid(3c5c02a43d27f5843ba4bdeec39b7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_stone.png using Guid(3c5c02a43d27f5843ba4bdeec39b7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cc854b2baa5581e6dc29393ff89b75') in 0.019182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.032803 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_wood.png
+  artifactKey: Guid(63ffe0e77c0ba20448fcc92eed3d3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Default size/scrollbar_wood.png using Guid(63ffe0e77c0ba20448fcc92eed3d3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f037e6b4aacdd4cea827ac34d95505') in 0.021375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.104436 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/bannerModern.png
+  artifactKey: Guid(5af03fb2439b73147a619e0cbf6841b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/bannerModern.png using Guid(5af03fb2439b73147a619e0cbf6841b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab0f143aa3407c5dfff3e01153eac25') in 0.017337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047080 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/button_metalCircle.png
+  artifactKey: Guid(63ff7e324de6ef548bddd0e1006d1905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/button_metalCircle.png using Guid(63ff7e324de6ef548bddd0e1006d1905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823ba360285f9d2f8b5e180ba71ec0a3') in 0.017677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.054995 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/button_rectangleMetalClose.png
+  artifactKey: Guid(ffe6860f3500e184c9b3a60014102b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/button_rectangleMetalClose.png using Guid(ffe6860f3500e184c9b3a60014102b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9c4c6934bf58ce76e698e076e4a68e') in 0.018067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042132 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/button_rectangleWood.png
+  artifactKey: Guid(746f164f87146d34cabe0a2de25f5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/button_rectangleWood.png using Guid(746f164f87146d34cabe0a2de25f5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed7f7bc893e66579d1b307d2f86ea5a') in 0.018438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.064296 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/button_woodClose.png
+  artifactKey: Guid(ce349a4746ca2034299d4da24c81a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/button_woodClose.png using Guid(ce349a4746ca2034299d4da24c81a12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4df202a6a63d3f40bfc109ee55d1d9') in 0.018028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031094 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/button_woodPaperCircle.png
+  artifactKey: Guid(a8593aabae4a67e4ba6d0a3f8ebc20da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/button_woodPaperCircle.png using Guid(a8593aabae4a67e4ba6d0a3f8ebc20da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8799f5de6402a49e0a158be4938eff88') in 0.017225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031946 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_metal.png
+  artifactKey: Guid(01b5a083f64b5314d888d4e386067834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_metal.png using Guid(01b5a083f64b5314d888d4e386067834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d159f8523790bf3cc7d9ed21e6e3f93') in 0.019853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024466 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_metalGreen.png
+  artifactKey: Guid(14b448c863ecb204d8b089a3122f5a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_metalGreen.png using Guid(14b448c863ecb204d8b089a3122f5a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b01ceeafdb1653545b92a2284e9a1a9') in 0.018505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.059739 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_woodPaper.png
+  artifactKey: Guid(133fc2871dae26a47a56f65b37ee3b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_woodPaper.png using Guid(133fc2871dae26a47a56f65b37ee3b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c159fbdea65bc142bb9ed0845fb8c1d') in 0.018434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006908 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_woodWear.png
+  artifactKey: Guid(818f46ca23103d245946f79494d682dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/hexagon_woodWear.png using Guid(818f46ca23103d245946f79494d682dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1552888c549b0f2b30a8ed059cfa468a') in 0.018167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016604 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapDirection_N.png
+  artifactKey: Guid(d53b022661000a446b0daa66b059c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapDirection_N.png using Guid(d53b022661000a446b0daa66b059c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729dc32c350ef7c5273e930432b6969a') in 0.019911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007278 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapDirection_W.png
+  artifactKey: Guid(f06cf6d0fe337044581372aa5908f338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapDirection_W.png using Guid(f06cf6d0fe337044581372aa5908f338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4d431d96351811ea0be79ea2e1f35b') in 0.017962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.065555 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_arrowC.png
+  artifactKey: Guid(0dd8b8f508e0a9d40ae1a4ebc2c175ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_arrowC.png using Guid(0dd8b8f508e0a9d40ae1a4ebc2c175ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d5dbcc94a4d7413bfa684069d38f0f') in 0.020659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.051596 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_exclamationWhite.png
+  artifactKey: Guid(409063b9ec40f2a4797dfb2f6b854ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_exclamationWhite.png using Guid(409063b9ec40f2a4797dfb2f6b854ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d557a0e235c270ab88ce94ee7161eb') in 0.021251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014982 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_jewelRed.png
+  artifactKey: Guid(01b484b750b2af34794a04270218b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_jewelRed.png using Guid(01b484b750b2af34794a04270218b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d8dcdaf52db229d7478b8ff5d6112e') in 0.016719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013421 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_jewelYellow.png
+  artifactKey: Guid(942a8b700e045704ebd86a28d6d149ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_jewelYellow.png using Guid(942a8b700e045704ebd86a28d6d149ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d52abe2c42462eaada2af1a395046ee') in 0.018955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_starWhite.png
+  artifactKey: Guid(8c2f21eec4da8d6489112dde5f98a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapIcon_starWhite.png using Guid(8c2f21eec4da8d6489112dde5f98a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3df920ac4a988f0a59ae70d394a445') in 0.017682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035598 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapMap_stone.png
+  artifactKey: Guid(263b04625d13ece49b82ce4ca535e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapMap_stone.png using Guid(263b04625d13ece49b82ce4ca535e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb29f50b4773fe57691bfa7330821f83') in 0.020461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapMap_wood.png
+  artifactKey: Guid(136acb6d970a47146814c7ff7ad3dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/minimapMap_wood.png using Guid(136acb6d970a47146814c7ff7ad3dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c34ce8cc95a40274afee1c61bc36cb') in 0.022207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.035861 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_blueprintWear.png
+  artifactKey: Guid(a499eb01b4c65764787df943a6f39fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_blueprintWear.png using Guid(a499eb01b4c65764787df943a6f39fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490b3d7dfdd0e9c00e8e064f1999554b') in 0.018336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015040 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_boltsDetail.png
+  artifactKey: Guid(2d5f6c75731d18a43ab0614abbb7afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_boltsDetail.png using Guid(2d5f6c75731d18a43ab0614abbb7afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df661fbb9b3905fbedbf736400f2cc78') in 0.017868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.102018 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_boltsRed.png
+  artifactKey: Guid(7599403b5b978e14d8377036ee65e757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_boltsRed.png using Guid(7599403b5b978e14d8377036ee65e757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cadd2a62da441ceab2f7cc215a53ebf') in 0.018732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027600 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalBlank.png
+  artifactKey: Guid(b1a169e49a408c54188b345b70adf0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalBlank.png using Guid(b1a169e49a408c54188b345b70adf0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4d46142562bc96f7b1cffa9aa78a84') in 0.018963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016987 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalBolts.png
+  artifactKey: Guid(ef403774302d26b48b462f70fa8b4bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalBolts.png using Guid(ef403774302d26b48b462f70fa8b4bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124131d8b88b26dff688dcd9fe829967') in 0.019532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 164.682404 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalRed.png
+  artifactKey: Guid(8f659835b334c104da0b59518e1d88be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_metalRed.png using Guid(8f659835b334c104da0b59518e1d88be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf97d71fc8092a02aab4edb9a4485dd') in 0.018479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodArrows.png
+  artifactKey: Guid(84e4c0f96424dad4ca3a2eaaf5747128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodArrows.png using Guid(84e4c0f96424dad4ca3a2eaaf5747128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6429089a33d98a34f614afc365f878') in 0.016758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022972 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodDetail_blank.png
+  artifactKey: Guid(cfc0c43eb8e20144887c93b4c056abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodDetail_blank.png using Guid(cfc0c43eb8e20144887c93b4c056abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2afe828743dd4d63a44d47103e02ac4') in 0.016935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.156289 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodPaperDetailArrows.png
+  artifactKey: Guid(772ad9a1d76afc64d8035c49b09db956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodPaperDetailArrows.png using Guid(772ad9a1d76afc64d8035c49b09db956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3ef5d966fc38b84643df9b530e42bf') in 0.018029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodPaperWear.png
+  artifactKey: Guid(0a482ec9b9e4b7e4da4506d40b0ad53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/Interface Pack/PNG/Retina/panel_woodPaperWear.png using Guid(0a482ec9b9e4b7e4da4506d40b0ad53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e4ecacb25c8eb03b3f1e30fe4aadc6') in 0.019062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 847.364500 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a294d07d502ccf85d0a213b5432d32a1') in 0.094577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
