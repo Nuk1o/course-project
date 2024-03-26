@@ -1,5 +1,5 @@
-using System;
 using UnityEngine;
+using Zenject;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,6 +7,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private Animator _animator;
     private Vector2 _movement;
+
+    [Inject] private TestClass _testClass;
+
+    private void Start()
+    {
+        Debug.Log(_testClass.speed);
+    }
 
     private void Update()
     {
