@@ -1,11 +1,10 @@
-using System;
 using UnityEngine;
 using Zenject;
 
 public class TriggerPosition : MonoBehaviour
 {
-    [SerializeField] private GameObject _panelPess;
-    [SerializeField] private string _text;
+    [SerializeField] private GameObject _panelPress;
+    [SerializeField] [TextArea] private string _text;
     [Inject] private InfoPanel _infoPanel;
 
     private bool _isStay = false;
@@ -20,7 +19,7 @@ public class TriggerPosition : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            _panelPess.SetActive(true);
+            _panelPress.SetActive(true);
             _isStay = true;
         }
         Debug.Log(other.gameObject.name);
@@ -30,7 +29,7 @@ public class TriggerPosition : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            _panelPess.SetActive(false);
+            _panelPress.SetActive(false);
             _isStay = false;
         }
     }
