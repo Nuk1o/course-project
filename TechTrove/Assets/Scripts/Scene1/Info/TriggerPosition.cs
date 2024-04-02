@@ -1,3 +1,4 @@
+using DialogScripts;
 using UnityEngine;
 using Zenject;
 
@@ -6,6 +7,8 @@ public class TriggerPosition : MonoBehaviour
     [SerializeField] private GameObject _panelPress;
     [SerializeField] [TextArea] private string _text;
     [Inject] private InfoPanel _infoPanel;
+    [SerializeField] private Dialog _dialog;
+    [Inject] private DialogController _dialogController;
 
     private bool _isStay = false;
     private GameObject _infoGameObject;
@@ -45,14 +48,14 @@ public class TriggerPosition : MonoBehaviour
 
     private void OpenInfoMenu()
     {
-        
-        _infoGameObject.SetActive(true);
-        _infoPanel.text.text = _text;
-        _infoPanel.button.onClick.AddListener(delegate { CloseInfoMenu(); });
+        // _infoGameObject.SetActive(true);
+        // _infoPanel.text.text = _text;
+        // _infoPanel.button.onClick.AddListener(delegate { CloseInfoMenu(); });
+        _dialogController.Render(_dialog);
     }
 
-    private void CloseInfoMenu()
-    {
-        _infoGameObject.SetActive(false);
-    }
+    // private void CloseInfoMenu()
+    // {
+    //     _infoGameObject.SetActive(false);
+    // }
 }

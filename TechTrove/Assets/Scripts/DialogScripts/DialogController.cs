@@ -24,7 +24,7 @@ namespace DialogScripts
             {
                 Destroy(child.gameObject);
             }
-            Render(_dialog);
+            //Render(_dialog);
         }
 
         public void Render(Dialog dialog)
