@@ -8,13 +8,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator _animator;
     private Vector2 _movement;
 
-    [Inject] private TestClass _testClass;
-
-    private void Start()
-    {
-        Debug.Log(_testClass.speed);
-    }
-
     private void Update()
     {
         _movement.x = Input.GetAxisRaw("Horizontal");
