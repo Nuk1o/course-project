@@ -6,7 +6,9 @@ public class TriggerPosition : MonoBehaviour
 {
     [SerializeField] private GameObject _panelPress;
     [SerializeField] private Dialog _dialog;
+    [SerializeField] private GameObject _panelCanvas;
     [Inject] private DialogController _dialogController;
+    private GameObject _dialogPanel;
     private bool _isStay = false;
     private bool _isPress = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -33,13 +35,25 @@ public class TriggerPosition : MonoBehaviour
         if (_isStay&&Input.GetKey(KeyCode.F)&&!_isPress)
         {
             Debug.Log("Нажал А");
-            OpenInfoMenu();
             _isPress = true;
+            OpenInfoMenu();
         }
     }
 
     private void OpenInfoMenu()
     {
-        _dialogController.Render(_dialog);
+        _isPress = false;
+        if (_panelCanvas != null)
+        {
+            _panelCanvas.SetActive(true);
+        }
+        else if(_dialogPanel == null)
+        {
+            _dialogPanel = _dialogController.Render(_dialog);
+        }
+        else
+        {
+            _dialogPanel.SetActive(true);
+        }
     }
 }

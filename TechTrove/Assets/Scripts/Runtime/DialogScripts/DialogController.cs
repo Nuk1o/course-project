@@ -13,6 +13,7 @@ namespace DialogScripts
         [SerializeField] private AnswerTemplate _answerTemplate;
         [SerializeField] private Transform _container;
         [SerializeField] private Dialog _dialog;
+        
 
         private Button _continue;
         private List<Button> _listButton;
@@ -27,20 +28,24 @@ namespace DialogScripts
             //Render(_dialog);
         }
 
-        public void Render(Dialog dialog)
+        public GameObject Render(Dialog dialog)
         {
             Debug.Log(dialog.CorrectAnswer);
             if (dialog.CorrectAnswer<1)
             {
                 var dialogPanel = Instantiate(_questionTemplate, _container);
                 dialogPanel.Render(dialog);
+                return dialogPanel.gameObject;
             }
 
             if (dialog.CorrectAnswer>0)
             {
                 var dialogPanel = Instantiate(_answerTemplate, _container);
                 dialogPanel.Render(dialog);
+                return dialogPanel.gameObject;
             }
+
+            return null;
         }
     }
 }

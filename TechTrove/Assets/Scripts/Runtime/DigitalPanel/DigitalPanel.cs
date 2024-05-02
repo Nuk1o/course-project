@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DigitalPanel : MonoBehaviour
@@ -20,7 +21,12 @@ public class DigitalPanel : MonoBehaviour
 
     private void CheckCodeText()
     {
-        
+        if (_text.text == "7319")
+        {
+            Debug.Log("Data PC");
+            SceneManager.LoadScene("End");
+        }
+        gameObject.transform.parent.gameObject.SetActive(false);
     }
 
     public void WriteTextButton(string text)

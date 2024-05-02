@@ -8,15 +8,23 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator _animator;
     private Vector2 _movement;
 
+    private bool _isStoped = false;
+    public bool isStoped
+    {
+        get { return _isStoped; }
+        set { _isStoped = value; }
+    }
     private void Update()
     {
-        _movement.x = Input.GetAxisRaw("Horizontal");
-        _movement.y = Input.GetAxisRaw("Vertical");
+        if (!_isStoped)
+        {
+            _movement.x = Input.GetAxisRaw("Horizontal");
+            _movement.y = Input.GetAxisRaw("Vertical");
         
-        _animator.SetFloat("Horizontal",_movement.x);
-        _animator.SetFloat("Vertical",_movement.y);
-        _animator.SetFloat("Speed",_movement.sqrMagnitude);
-        
+            _animator.SetFloat("Horizontal",_movement.x);
+            _animator.SetFloat("Vertical",_movement.y);
+            _animator.SetFloat("Speed",_movement.sqrMagnitude);
+        }
     }
 
     private void FixedUpdate()
