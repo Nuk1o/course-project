@@ -8,13 +8,7 @@
         "GUID:30f8f1e4609eae549968fc6b1ef538c6"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "LinuxStandalone64",
-        "CloudRendering",
-        "WSA",
-        "WindowsStandalone32",
-        "WindowsStandalone64"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

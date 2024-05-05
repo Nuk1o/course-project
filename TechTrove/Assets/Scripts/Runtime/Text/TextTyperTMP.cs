@@ -59,24 +59,7 @@ public class TextTyperTMP : MonoBehaviour
         _typing = false;
 		CancelInvoke("Type");
 	}
-
-    public void UpdateText(string newText)
-    {   
-        StopTyping();
-        _textComponent.text = "";
-        _textToType = newText;
-        StartTyping();
-    }
-
-	public void QuickSkip()
-	{
-		if(_typing)
-		{
-			StopTyping();
-			_textComponent.text = _textToType;
-		}
-	}
-
+	
 	private void Type()
 	{	
 		_typing = true;
@@ -95,6 +78,25 @@ public class TextTyperTMP : MonoBehaviour
 			CancelInvoke("Type");
 		}
 	}
+
+    public void UpdateText(string newText)
+    {   
+        StopTyping();
+        _textComponent.text = "";
+        _textToType = newText;
+        StartTyping();
+    }
+
+	public void QuickSkip()
+	{
+		if(_typing)
+		{
+			StopTyping();
+			_textComponent.text = _textToType;
+		}
+	}
+
+	
 
 	private void RandomiseVolume()
 	{
