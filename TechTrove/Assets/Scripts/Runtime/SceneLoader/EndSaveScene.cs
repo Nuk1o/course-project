@@ -20,7 +20,7 @@ public class EndSaveScene : MonoBehaviour
                             $"\n Графическое устройство: {SystemInfo.graphicsDeviceName}" +
                             $"\n Тип устройства: {SystemInfo.deviceType}" +
                             $"\n Операционная система: {SystemInfo.operatingSystem}" +
-                            $"\n Оперативная память: {SystemInfo.systemMemorySize}";;
+                            $"\n Оперативная память: {SystemInfo.systemMemorySize} мб";;
         File.WriteAllText(filePath, systemData);
 
         Debug.Log("System data saved to: " + filePath);
